@@ -12,7 +12,9 @@
 ## var
 var type1 = "String";<br>
 var type2 = 123;<br>
+
 type1은 String형, type2는 int형이됨<br><br>
+
 **특징:**
  - 어떤걸 넣어도 상관없음
  - 한번 정해진 타입은 안바뀜
@@ -22,7 +24,9 @@ dynamic type1 = "String";<br>
 dynamic type2 = 123;<br>
  - String a = type1; 가능
  - String a = type2; 오류<br>
+ 
 type1, type2는 dynamic형<br><br>
+
 **특징:**
  - 어떤걸 넣어도 상관없음
  - 저장되는 값에 형태가 같으면 Stringdp에 dynamic형도 저장가
@@ -33,7 +37,9 @@ Object type2 = 123;<br>
  - String a = type1 as String; 가능
  - String a = type1 is String; 가능
  - String a = type1; 오류<br>
+ 
 type1, type2는 dynamic형<br><br>
+
 **특징:**
  - dart최상위 타입
  - 어떤걸 넣어도 상관없음
